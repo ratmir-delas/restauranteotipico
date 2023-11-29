@@ -243,10 +243,11 @@ section
 {
 	height: 130% !important;
 }
-.parallax-window
-{
-    min-height: 400px;
-    background: transparent;
+.parallax-window {
+	min-height: 400px;
+	background-color: rgba(0, 0, 0, 0.5); /* Dark overlay; you can adjust the alpha value (0.5) for more or less darkness */
+	backdrop-filter: blur(1px);
+	background-blend-mode: darken; /* This blends the background color with the image */
 }
 .parallax_background
 {
@@ -265,7 +266,7 @@ section
 	height: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center center;
+	background-position: center bottom;
 }
 .nopadding
 {
@@ -938,7 +939,7 @@ section
 }
 .footer_contact_title
 {
-	width: 61px;
+	width: 68px;
 	height: 21px;
 	font-size: 16px;
 	color: #FFFFFF;

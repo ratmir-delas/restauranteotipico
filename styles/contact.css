@@ -244,8 +244,10 @@ section
 }
 .parallax-window
 {
-    min-height: 400px;
-    background: transparent;
+	min-height: 400px;
+	background-color: rgba(0, 0, 0, 0.5); /* Dark overlay; you can adjust the alpha value (0.5) for more or less darkness */
+	backdrop-filter: blur(1px); /* This is for the blur effect */
+	background-blend-mode: darken; /* This blends the background color with the image */
 }
 .parallax_background
 {
@@ -852,7 +854,7 @@ section
 }
 .footer_contact_title
 {
-	width: 61px;
+	width: 68px;
 	height: 21px;
 	font-size: 16px;
 	color: #FFFFFF;
