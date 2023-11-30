@@ -241,8 +241,9 @@
 	}
 	.contact_logo_subtitle
 	{
-		font-size: 12px;
+		font-size: 14px;
 		margin-top: 8px;
+		letter-spacing: 0.67rem;
 	}
 	.res_stars
 	{

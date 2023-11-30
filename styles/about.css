@@ -557,7 +557,7 @@ section
 	-ms-transform: translateX(-50%);
 	-o-transform: translateX(-50%);
 	transform: translateX(-50%);
-	bottom: 40px;
+	bottom: 100px;
 	height: 47px;
 	line-height: 43px;
 	padding-left: 25px;
@@ -568,6 +568,10 @@ section
 	font-weight: 700;
 	color: #FFFFFF;
 	white-space: nowrap;
+}
+.menu_reservations_phone a {
+	text-decoration: none;
+	color: #FFFFFF;
 }
 
 /*********************************

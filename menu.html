@@ -71,15 +71,14 @@
 	<div class="menu trans_800">
 		<div class="menu_content d-flex flex-column align-items-center justify-content-center text-center">
 			<ul>
-				<li><a href="index.html">home</a></li>
-				<li><a href="about.html">about us</a></li>
+				<li><a href="index.html">início</a></li>
+				<li><a href="about.html">sobre nós</a></li>
 				<li><a href="menu.html">menu</a></li>
-				<li><a href="#">delivery</a></li>
-				<li><a href="blog.html">blog</a></li>
-				<li><a href="contact.html">contact</a></li>
+				<li><a href="blog.html">memórias</a></li>
+				<li><a href="contact.html">contatos</a></li>
 			</ul>
 		</div>
-		<div class="menu_reservations_phone ml-auto">Reservations: +34 586 778 8892</div>
+		<div class="menu_reservations_phone ml-auto"><a href="tel:+351234625336">Reservações: 234 625 336</a></div>
 	</div>
 	
 	<!-- Home -->
@@ -298,118 +297,247 @@
 
 				<!-- Principais -->
 				<div class="col-lg-4 themenu_column">
+
 					<div class="themenu_image"><img src="images/tipico/prato_steak_3.jpg" alt=""></div>
-					<div class="themenu_col trans_400">
-						<div class="themenu_col_title">Principais</div>
-						<div class="dish_list">
 
-							<h3>Peixe</h3>
+					<!-- Principais Set 1 Tab Content -->
+					<div id="Principais1" class="tabcontent" style="display: block;">
 
-							<!-- Dish -->
-							<div class="dish">
-								<div class="dish_title_container d-flex flex-xl-row flex-column align-items-start justify-content-start">
-									<div class="dish_title">Migas lagareiras</div>
-									<div class="dish_price">18,00€</div>
-								</div>
-								<div class="dish_contents">
-									<ul class="d-flex flex-row align-items-start justify-content-start flex-wrap">
-										<li>"Migas lagareiras" (miettes)</li>
-										<li>Bread stew with cod and vegetables in olive oil</li>
-									</ul>
-								</div>
+						<!-- Insert the full content of Principais Set 1 here -->
+						<div class="themenu_col trans_400">
+
+							<!-- Tab Links -->
+							<div class="tab">
+								<div class="themenu_col_title" onclick="toggleMenu()">Principais (mudar)</div>
 							</div>
 
-							<!-- Dish -->
-							<div class="dish">
-								<div class="dish_title_container d-flex flex-xl-row flex-column align-items-start justify-content-start">
-									<div class="dish_title">Polvo grelhado à lagareiro</div>
-									<div class="dish_price">22,50€</div>
+							<div class="dish_list">
+								<!-- List of Dishes for Set 1 -->
+								<h3>Peixe</h3>
+
+								<!-- Dish -->
+								<div class="dish">
+									<div class="dish_title_container d-flex flex-xl-row flex-column align-items-start justify-content-start">
+										<div class="dish_title">Migas lagareiras</div>
+										<div class="dish_price">18,00€</div>
+									</div>
+									<div class="dish_contents">
+										<ul class="d-flex flex-row align-items-start justify-content-start flex-wrap">
+											<li>"Migas lagareiras" (miettes)</li>
+											<li>Bread stew with cod and vegetables in olive oil</li>
+										</ul>
+									</div>
 								</div>
-								<div class="dish_contents">
-									<ul class="d-flex flex-row align-items-start justify-content-start flex-wrap">
-										<li>Poulpe grillé à la "lagareiro"</li>
-										<li>Grilled octopus in olive oil</li>
-									</ul>
+
+								<!-- Dish -->
+								<div class="dish">
+									<div class="dish_title_container d-flex flex-xl-row flex-column align-items-start justify-content-start">
+										<div class="dish_title">Polvo grelhado à lagareiro</div>
+										<div class="dish_price">22,50€</div>
+									</div>
+									<div class="dish_contents">
+										<ul class="d-flex flex-row align-items-start justify-content-start flex-wrap">
+											<li>Poulpe grillé à la "lagareiro"</li>
+											<li>Grilled octopus in olive oil</li>
+										</ul>
+									</div>
+								</div>
+
+								<!-- Dish -->
+								<div class="dish">
+									<div class="dish_title_container d-flex flex-xl-row flex-column align-items-start justify-content-start">
+										<div class="dish_title">Lulas com gambas grelhadas</div>
+										<div class="dish_price">18,00€</div>
+									</div>
+									<div class="dish_contents">
+										<ul class="d-flex flex-row align-items-start justify-content-start flex-wrap">
+											<li>Calamars avec des gambas grillées</li>
+											<li>Grilled squid with prawns</li>
+										</ul>
+									</div>
+								</div>
+
+								<br>
+								<h3>Carne</h3>
+
+								<!-- Dish -->
+								<div class="dish">
+									<div class="dish_title_container d-flex flex-xl-row flex-column align-items-start justify-content-start">
+										<div class="dish_title">Coelho no churrasco</div>
+										<div class="dish_price">15,00€</div>
+									</div>
+									<div class="dish_contents">
+										<ul class="d-flex flex-row align-items-start justify-content-start flex-wrap">
+											<li>Lapin au barbecue</li>
+											<li>Barbecued rabbit</li>
+										</ul>
+									</div>
+								</div>
+
+								<!-- Dish -->
+								<div class="dish">
+									<div class="dish_title_container d-flex flex-xl-row flex-column align-items-start justify-content-start">
+										<div class="dish_title">Secretos de porco com migas</div>
+										<div class="dish_price">16,00€</div>
+									</div>
+									<div class="dish_contents">
+										<ul class="d-flex flex-row align-items-start justify-content-start flex-wrap">
+											<li>Secrets de porc avec des miettes</li>
+											<li>Grilled pork secretions with bread stew</li>
+										</ul>
+									</div>
+								</div>
+
+								<!-- Dish -->
+								<div class="dish">
+									<div class="dish_title_container d-flex flex-xl-row flex-column align-items-start justify-content-start">
+										<div class="dish_title">Bife especial na pedra</div>
+										<div class="dish_price">18,00€</div>
+									</div>
+									<div class="dish_contents">
+										<ul class="d-flex flex-row align-items-start justify-content-start flex-wrap">
+											<li>Steak spéciel sur la pierre</li>
+											<li>Special steak on the stone</li>
+										</ul>
+									</div>
+								</div>
+
+								<!-- Dish -->
+								<div class="dish">
+									<div class="dish_title_container d-flex flex-xl-row flex-column align-items-start justify-content-start">
+										<div class="dish_title">Lombinhos de porco com gambas (2 pes.)</div>
+										<div class="dish_price">32,50€</div>
+									</div>
+									<div class="dish_contents">
+										<ul class="d-flex flex-row align-items-start justify-content-start flex-wrap">
+											<li>Petits filets de porc avec des gambas (2 pes.)</li>
+											<li>Pork loins with prawns (2 pers.)</li>
+										</ul>
+									</div>
 								</div>
 							</div>
-
-							<!-- Dish -->
-							<div class="dish">
-								<div class="dish_title_container d-flex flex-xl-row flex-column align-items-start justify-content-start">
-									<div class="dish_title">Lulas com gambas grelhadas</div>
-									<div class="dish_price">18,00€</div>
-								</div>
-								<div class="dish_contents">
-									<ul class="d-flex flex-row align-items-start justify-content-start flex-wrap">
-										<li>Calamars avec des gambas grillées</li>
-										<li>Grilled squid with prawns</li>
-									</ul>
-								</div>
-							</div>
-
-							<br>
-							<h3>Carne</h3>
-
-							<!-- Dish -->
-							<div class="dish">
-								<div class="dish_title_container d-flex flex-xl-row flex-column align-items-start justify-content-start">
-									<div class="dish_title">Coelho no churrasco</div>
-									<div class="dish_price">15,00€</div>
-								</div>
-								<div class="dish_contents">
-									<ul class="d-flex flex-row align-items-start justify-content-start flex-wrap">
-										<li>Lapin au barbecue</li>
-										<li>Barbecued rabbit</li>
-									</ul>
-								</div>
-							</div>
-
-							<!-- Dish -->
-							<div class="dish">
-								<div class="dish_title_container d-flex flex-xl-row flex-column align-items-start justify-content-start">
-									<div class="dish_title">Secretos de porco com migas</div>
-									<div class="dish_price">16,00€</div>
-								</div>
-								<div class="dish_contents">
-									<ul class="d-flex flex-row align-items-start justify-content-start flex-wrap">
-										<li>Secrets de porc avec des miettes</li>
-										<li>Grilled pork secretions with bread stew</li>
-									</ul>
-								</div>
-							</div>
-
-							<!-- Dish -->
-							<div class="dish">
-								<div class="dish_title_container d-flex flex-xl-row flex-column align-items-start justify-content-start">
-									<div class="dish_title">Bife especial na pedra</div>
-									<div class="dish_price">18,00€</div>
-								</div>
-								<div class="dish_contents">
-									<ul class="d-flex flex-row align-items-start justify-content-start flex-wrap">
-										<li>Steak spéciel sur la pierre</li>
-										<li>Special steak on the stone</li>
-									</ul>
-								</div>
-							</div>
-
-							<!-- Dish -->
-							<div class="dish">
-								<div class="dish_title_container d-flex flex-xl-row flex-column align-items-start justify-content-start">
-									<div class="dish_title">Lombinhos de porco com gambas (2 pes.)</div>
-									<div class="dish_price">32,50€</div>
-								</div>
-								<div class="dish_contents">
-									<ul class="d-flex flex-row align-items-start justify-content-start flex-wrap">
-										<li>Petits filets de porc avec des gambas (2 pes.)</li>
-										<li>Pork loins with prawns (2 pers.)</li>
-									</ul>
-								</div>
-							</div>
-
-
-
 						</div>
 					</div>
+
+					<!-- Principais Set 2 Tab Content -->
+					<div id="Principais2" class="tabcontent" style="display: none;">
+						<!-- Insert the full content of Principais Set 2 here -->
+						<div class="themenu_col trans_400">
+
+							<!-- Tab Links -->
+							<div class="tab">
+								<div class="themenu_col_title" onclick="toggleMenu()">Principais (mudar)</div>
+							</div>
+
+							<div class="dish_list">
+								<!-- List of Dishes for Set 2 -->
+								<h3>Peixe</h3>
+
+								<!-- Dish -->
+								<div class="dish">
+									<div class="dish_title_container d-flex flex-xl-row flex-column align-items-start justify-content-start">
+										<div class="dish_title">Bacalhau grelhado à lagareiro</div>
+										<div class="dish_price">22,00€</div>
+									</div>
+									<div class="dish_contents">
+										<ul class="d-flex flex-row align-items-start justify-content-start flex-wrap">
+											<li>Morue grillée à la "lagareiro"</li>
+											<li>Grilled cod in olive oil</li>
+										</ul>
+									</div>
+								</div>
+
+								<!-- Dish -->
+								<div class="dish">
+									<div class="dish_title_container d-flex flex-xl-row flex-column align-items-start justify-content-start">
+										<div class="dish_title">Lulas grelhadas à lagareiro</div>
+										<div class="dish_price">15,00€</div>
+									</div>
+									<div class="dish_contents">
+										<ul class="d-flex flex-row align-items-start justify-content-start flex-wrap">
+											<li>Calamars grillés à la "lagareiro"</li>
+											<li>Grilled squid in olive oil</li>
+										</ul>
+									</div>
+								</div>
+
+								<!-- Dish -->
+								<div class="dish">
+									<div class="dish_title_container d-flex flex-xl-row flex-column align-items-start justify-content-start">
+										<div class="dish_title">Arroz de línguas de bacalhau com ovo escalfado (2 pes.)</div>
+										<div class="dish_price">35,00€</div>
+									</div>
+									<div class="dish_contents">
+										<ul class="d-flex flex-row align-items-start justify-content-start flex-wrap">
+											<li>Riz aux langues de morue avec oeuf poché (2 pes.)</li>
+											<li>Cod tongues rice with poached egg (2 pers.)</li>
+										</ul>
+									</div>
+								</div>
+
+								<br>
+								<h3>Carne</h3>
+
+								<!-- Dish -->
+								<div class="dish">
+									<div class="dish_title_container d-flex flex-xl-row flex-column align-items-start justify-content-start">
+										<div class="dish_title">Cabrito grelhado</div>
+										<div class="dish_price">18,00€</div>
+									</div>
+									<div class="dish_contents">
+										<ul class="d-flex flex-row align-items-start justify-content-start flex-wrap">
+											<li>Chevreau grillé</li>
+											<li>Roasted Lamb</li>
+										</ul>
+									</div>
+								</div>
+
+								<!-- Dish -->
+								<div class="dish">
+									<div class="dish_title_container d-flex flex-xl-row flex-column align-items-start justify-content-start">
+										<div class="dish_title">Nacos de vitelinha grelhados com alecrim</div>
+										<div class="dish_price">19,50€</div>
+									</div>
+									<div class="dish_contents">
+										<ul class="d-flex flex-row align-items-start justify-content-start flex-wrap">
+											<li>Tranches de petit-veau grillées au romarin</li>
+											<li>Grilled veal steak with rosemary</li>
+										</ul>
+									</div>
+								</div>
+
+								<!-- Dish -->
+								<div class="dish">
+									<div class="dish_title_container d-flex flex-xl-row flex-column align-items-start justify-content-start">
+										<div class="dish_title">Lombinhos de porco grelhados à lagareiro</div>
+										<div class="dish_price">15,00€</div>
+									</div>
+									<div class="dish_contents">
+										<ul class="d-flex flex-row align-items-start justify-content-start flex-wrap">
+											<li>Petits filets de poc grillés à la "lagareiro"</li>
+											<li>Grilled pork loins in olive oil</li>
+										</ul>
+									</div>
+								</div>
+
+								<!-- Dish -->
+								<div class="dish">
+									<div class="dish_title_container d-flex flex-xl-row flex-column align-items-start justify-content-start">
+										<div class="dish_title">Nacos de picanha na pedra</div>
+										<div class="dish_price">19,50€</div>
+									</div>
+									<div class="dish_contents">
+										<ul class="d-flex flex-row align-items-start justify-content-start flex-wrap">
+											<li>Morceaux de "picanha" sur la pierre</li>
+											<li>Rump cover steak on the stone</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Sopas -->
 					<br>
 					<div class="themenu_col trans_400">
 						<div class="themenu_col_title">Sopas</div>
@@ -645,8 +773,8 @@
 			<div class="row">
 				<div class="col">
 					<div class="section_title_container">
-						<div class="section_subtitle page_subtitle">Something new</div>
-						<div class="section_title"><h1>Our Signature Dishes</h1></div>
+						<div class="section_subtitle page_subtitle">Escolha perfeita de</div>
+						<div class="section_title"><h1>Pratos Para Aproveitar</h1></div>
 					</div>
 				</div>
 			</div>
@@ -660,21 +788,21 @@
 								<div class="sig_content">
 									<div class="rating_r sig_rating rating_r_5"><i></i><i></i><i></i><i></i><i></i></div>
 									<div class="sig_name_container d-flex flex-row align-items-start justify-content-start">
-										<div class="sig_name">Pork Tenderloin marinated in Green Pepper</div>
-										<div class="sig_price ml-auto">$20</div>
+										<div class="sig_name">Carne de porco à alentejana</div>
+										<div class="sig_price ml-auto">15,00€</div>
 									</div>
 									<div class="sig_content_list">
 										<ul class="d-flex flex-row align-items-center justify-content-start">
-											<li>Pork</li>
-											<li>Tenderloin</li>
-											<li>Green Pepper</li>
-											<li>Veggies</li>
+											<li>Porco</li>
+											<li>Batata</li>
+											<li>Amêijoas</li>
+											<li>Flor</li>
 										</ul>
 									</div>
 								</div>
 							</div>
 							<div class="col-lg-6 sig_col">
-								<div class="sig_image"><img src="images/sig_1.jpg" alt=""></div>
+								<div class="sig_image sig_image_bottom"><img src="images/tipico/prato_alentejana_2.jpg" alt=""></div>
 							</div>
 						</div>
 					</div>
@@ -686,21 +814,21 @@
 								<div class="sig_content">
 									<div class="rating_r sig_rating rating_r_5"><i></i><i></i><i></i><i></i><i></i></div>
 									<div class="sig_name_container d-flex flex-row align-items-start justify-content-start">
-										<div class="sig_name">Beef Tartar with forest mushroms</div>
-										<div class="sig_price ml-auto">$23</div>
+										<div class="sig_name">Nome do prato</div>
+										<div class="sig_price ml-auto">15,00€</div>
 									</div>
 									<div class="sig_content_list">
 										<ul class="d-flex flex-row align-items-center justify-content-start">
-											<li>Pork</li>
-											<li>Tenderloin</li>
-											<li>Green Pepper</li>
-											<li>Veggies</li>
+											<li>Porco</li>
+											<li>Batata</li>
+											<li>Amêijoas</li>
+											<li>Flor</li>
 										</ul>
 									</div>
 								</div>
 							</div>
 							<div class="col-lg-6 sig_col">
-								<div class="sig_image"><img src="images/sig_2.jpg" alt=""></div>
+								<div class="sig_image sig_image_bottom"><img src="images/tipico/prato_arros_1.jpg" style="width: 110%" alt=""></div>
 							</div>
 						</div>
 					</div>
@@ -712,21 +840,21 @@
 								<div class="sig_content">
 									<div class="rating_r sig_rating rating_r_5"><i></i><i></i><i></i><i></i><i></i></div>
 									<div class="sig_name_container d-flex flex-row align-items-start justify-content-start">
-										<div class="sig_name">Beef Steak with sauted vegetables</div>
-										<div class="sig_price ml-auto">$20</div>
+										<div class="sig_name">Nome do prato</div>
+										<div class="sig_price ml-auto">15,00€</div>
 									</div>
 									<div class="sig_content_list">
 										<ul class="d-flex flex-row align-items-center justify-content-start">
-											<li>Pork</li>
-											<li>Tenderloin</li>
-											<li>Green Pepper</li>
-											<li>Veggies</li>
+											<li>Porco</li>
+											<li>Batata</li>
+											<li>Amêijoas</li>
+											<li>Flor</li>
 										</ul>
 									</div>
 								</div>
 							</div>
 							<div class="col-lg-6 sig_col">
-								<div class="sig_image"><img src="images/sig_3.jpg" alt=""></div>
+								<div class="sig_image sig_image_bottom"><img src="images/tipico/prato_steak_1.jpg" alt=""></div>
 							</div>
 						</div>
 					</div>
@@ -832,5 +960,24 @@
 <script src="plugins/jquery-datepicker/jquery-ui.js"></script>
 <script src="plugins/jquery-timepicker/jquery.timepicker.js"></script>
 <script src="js/menu.js"></script>
+<script>
+	var isSetOneVisible = true;
+
+	function toggleMenu() {
+		var setOne = document.getElementById("Principais1");
+		var setTwo = document.getElementById("Principais2");
+
+		if (isSetOneVisible) {
+			setOne.style.display = "none";
+			setTwo.style.display = "block";
+		} else {
+			setOne.style.display = "block";
+			setTwo.style.display = "none";
+		}
+
+		isSetOneVisible = !isSetOneVisible;
+	}
+
+</script>
 </body>
 </html>
