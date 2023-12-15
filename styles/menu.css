@@ -664,7 +664,7 @@ section
 }
 .dish_list
 {
-	margin-top: 44px;
+	margin-top: 1.5em;
 }
 .dish:not(:last-child)
 {
@@ -679,6 +679,8 @@ section
 .dish_price
 {
 	margin-left: auto;
+	/* preço ocultado */
+	display: none;
 }
 .dish_contents
 {
@@ -792,6 +794,8 @@ section
 {
 	font-size: 24px;
 	color: #232323;
+	/* preço ocultado */
+	display: none;
 }
 .sig_content_list
 {
